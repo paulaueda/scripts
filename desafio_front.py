@@ -79,8 +79,6 @@ github_user = input("Qual o usuário do github: ")
 company_name = f"desafio-front-{github_user}"
 
 company_id, api_key = create_company()
-# company_id = "62daeab0291a81001d337a7a"
-# api_key = "ak_test_dSw9Mehz6EAHW0fBERGA0hp0SAEvBZ"
 
 print(company_name)
 print(f"company_id: {company_id}")
